@@ -1,0 +1,162 @@
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 288px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content > p {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.text-content > .city {
+  font-size: 24px;
+  letter-spacing: 4.8px;
+}
+
+.text-content > .time {
+  align-items: baseline;
+  padding: 20px 0px 20px 0px;
+}
+
+.text-content > .time > h1 {
+  font-size: 200px;
+  line-height: 200px;
+  align-items: flex-end;
+  letter-spacing: -5px;
+}
+
+.text-content > .time > p {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 28px;
+}
+
+.time {
+  display: flex;
+}
+
+.greeting {
+  display: flex;
+}
+
+.greeting > p {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+}
+
+.greeting > .icon {
+  padding-right: 10px;
+  width: 22.34px;
+  height: 24px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+  height: 56px;
+  width: 146px;
+  border: none;
+  border-radius: 28px;
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background: #999999;
+}
+
+button > .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #303030;
+}
+
+button > .text {
+  padding-left: 10px;
+}
+
+button:hover {
+  color: grey;
+}
+
+.circle > img:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .content-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 200px;
+  }
+
+  button {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+  .content-container {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-device-height: 800px) {
+  .content-container {
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-device-width: 650px) {
+  .content-container {
+    margin-top: 40px;
+  }
+
+  .text-content > .time {
+    padding-top: 0px;
+  }
+
+  .text-content > .time > h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .text-content > .city {
+    font-size: 15px;
+  }
+
+  .text-content > .time > p {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .greeting > p {
+    font-size: 15px;
+  }
+
+  .greeting > p > span {
+    visibility: hidden;
+  }
+
+  button {
+    height: 46px;
+    width: 126px;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outer-container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.day-background {
+  /*Photo by thanhhoa tran from Pexels*/
+  background: url('./assets/bg-image-daytime.jpg') center/cover no-repeat;
+}
+
+.night-background {
+  /*Photo by Drift Shutterbug from Pexels*/
+  background: url('./assets/bg-image-nighttime.jpg') center/cover no-repeat;
+}
+
+.inner-container {
+  margin: 80px 125px 80px 125px;
+  color: white;
+  font-family: Inter;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media screen and (max-device-width: 800px) and (orientation: portrait) {
+  .inner-container {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-device-width: 650px) {
+  .inner-container {
+    margin: 30px;
+  }
+}

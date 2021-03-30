@@ -1,0 +1,58 @@
+.quote-container {
+  display: flex;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 190px;
+  min-height: 125px;
+  width: 573px;
+  font-size: 18px;
+}
+
+.author {
+  padding-top: 20px;
+}
+
+.refresh {
+  width: 16.67px;
+  height: 16.67px;
+  padding-top: 7px;
+  padding-left: 5px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.refresh:hover {
+  opacity: 1;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .quote {
+    width: 673px;
+    margin-top: 20px;
+    margin-bottom: 280px;
+    font-size: 22px;
+  }
+
+  .refresh {
+    padding-left: 60px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-device-width: 650px) {
+  .quote {
+    width: 673px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .refresh {
+    padding-left: 10px;
+    margin-top: 0px;
+  }
+}
