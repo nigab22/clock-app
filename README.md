@@ -1,6 +1,6 @@
-# <p align="center">Pomodoro Timer App 🍅⏰</p>
+# <p align="center">Clock App ⏰</p>
 
-![image](![image](https://user-images.githubusercontent.com/76473196/122585849-f229e300-d029-11eb-9337-d49d7560571d.png)
+(![image](https://user-images.githubusercontent.com/76473196/122585849-f229e300-d029-11eb-9337-d49d7560571d.png)
 
 #### <p align="center">View live project [here](https://nina-clock-app.netlify.app/) </p>
 
