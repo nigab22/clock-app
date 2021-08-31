@@ -1,6 +1,7 @@
 # <p align="center">Clock App </p>
 
-<p align="center">![image](https://user-images.githubusercontent.com/76473196/122585849-f229e300-d029-11eb-9337-d49d7560571d.png)</p>
+<p align="center">![image](    <img width="945" alt="clock-app-pic" src="https://user-images.githubusercontent.com/76473196/131430353-4468e068-e184-47ba-929c-2c6e05812c0a.PNG">
+)</p>
 
 
 #### <p align="center">View live project [here](https://nina-clock-app.netlify.app/) </p>
